@@ -87,7 +87,7 @@ The enterprise requires an architecture that treats compute as a flexible utilit
 
 The Hybrid Edge-AI Gateway Architecture splits the AI processing pipeline into two completely isolated environments: the Trusted Local Zone and the Untrusted Cloud Zone.  The gateway node stands as the single, authenticated point of transit between these layers.
 
-![[/images/Dual Layer Ecosystem.drawio.png]]
+![[docs/images/Dual Layer Ecosystem.drawio.png]]
 ## 2.1 The Trusted Local Zone (The Gateway Node)
 
 The Trusted Local Zone comprises the enterprise network perimeter and hardened endpoint environments.  The core engine is the Local Edge-AI Gateway, deployed on secure local infrastructure.  This node consists of three primary functional sub-layers:
